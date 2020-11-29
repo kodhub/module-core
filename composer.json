@@ -1,0 +1,26 @@
+{
+    "name": "kodhub/module-core",
+    "description": "Kodhub Core Module",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mage2Gen",
+            "email": "info@mage2gen.com"
+        },
+        {
+            "name": "\u0130smail \u00c7ak\u0131r",
+            "email": "ismailcakirnet@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Kodhub\\Core\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

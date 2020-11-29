@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+	<system>
+		<tab id="kodhub" sortOrder="999" translate="label">
+			<label>kodhub</label>
+		</tab>
+		<section id="kodhub" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
+			<label>kodhub</label>
+			<tab>kodhub</tab>
+			<resource>Kodhub_Core::config_kodhub_core</resource>
+			<group id="licence" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
+				<label>licence</label>
+				<field id="key" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label" type="text">
+					<label>key</label>
+					<comment/>
+				</field>
+			</group>
+		</section>
+	</system>
+</config>
