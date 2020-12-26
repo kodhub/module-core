@@ -5,17 +5,5 @@
 			<label>Kodhub</label>
             <resource>Kodhub_Core::config</resource>
         </tab>
-		<section id="kodhub" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
-			<label>Core Configuration</label>
-			<tab>kodhub</tab>
-			<resource>Kodhub_Core::config_kodhub_core</resource>
-			<group id="licence" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
-				<label>Licence</label>
-				<field id="key" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label" type="text">
-					<label>Key</label>
-					<comment/>
-				</field>
-			</group>
-		</section>
 	</system>
 </config>
