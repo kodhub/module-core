@@ -3,7 +3,7 @@
 	<system>
 		<tab id="kodhub" sortOrder="999" translate="label">
 			<label>Kodhub</label>
-            <resource>Kodhub_Core::config</resource>
-        </tab>
+			<resource>Kodhub_Core::config</resource>
+		</tab>
 	</system>
 </config>
