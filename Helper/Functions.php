@@ -9,7 +9,7 @@ namespace Kodhub\Core\Helper;
 
 use Magento\Framework\App\Helper\AbstractHelper;
 
-class Function extends AbstractHelper
+class Functions extends AbstractHelper
 {
 
     /**
